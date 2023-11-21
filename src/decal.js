@@ -9,7 +9,7 @@ const decalData = [
     { id: 8, name: '1984', url: 'src/assets/decal/1984.png' },
     { id: 9, name: 'Clean', url: 'src/assets/decal/Clean.png' },
     { id: 10, name: 'RickandMorty', url: 'src/assets/decal/RickandMorty.png' },
-    { id: 10, name: 'Acdc', url: 'src/assets/decal/Acdc.png' },
+    { id: 11, name: 'Acdc', url: 'src/assets/decal/Acdc.png' },
   ];
 
 
