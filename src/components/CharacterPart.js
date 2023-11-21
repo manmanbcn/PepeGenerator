@@ -24,10 +24,10 @@ const CharacterPart = React.forwardRef(({eyes, lips, hands, decal, hair, shirt, 
                     <img className="hairs" src={hair} alt="hair" />
                 </div>
                 <div className='backpackWrapper'>
-                    <img className="backpacks" src="/src/assets/backpack-off.png" alt="" />
+                    <img className="backpacks" src="src/assets/backpack-off.png" alt="" />
                 </div>
                 <div className="headWrapper">
-                    <img className="head" src="/src/assets/Head_fixed.png" alt="head"/>
+                    <img className="head" src="src/assets/Head_fixed.png" alt="head"/>
                 </div>
         </div>
     </section>
