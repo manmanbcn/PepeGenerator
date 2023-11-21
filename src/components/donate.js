@@ -5,7 +5,7 @@ const Donate = () => {
   return (
     <section id="donate" className="donate-wrapper">
     <div className="donate-title">
-      <img src="/src/assets/Donat_us.png" alt="Donate Us" />
+      <img src="src/assets/Donat_us.png" alt="Donate Us" />
     </div>
     <div className="donate-text">
       <span>
@@ -15,7 +15,7 @@ const Donate = () => {
     <div className="donate-link">
       <a className="donate-link-text">
         <span className="donate-link-text-button">Donate</span>
-        <img className="donate-link-img" src="/src/assets/lslink_Donate2.png" alt="Donate Me" />
+        <img className="donate-link-img" src="src/assets/link_Donate2.png" alt="Donate Me" />
       </a>
     </div>
   </section>)

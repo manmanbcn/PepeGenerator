@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.887c6921.css",
-    "main.js": "/static/js/main.335d1fd7.js",
-    "static/media/transparent.jpg": "/static/media/transparent.52304df8226cf050a2b6.jpg",
-    "static/media/bg-black.jpg": "/static/media/bg-black.95ef36986f96d5618c61.jpg",
-    "static/media/generator.png": "/static/media/generator.d740d047b1b3ab175098.png",
-    "index.html": "/index.html",
-    "main.887c6921.css.map": "/static/css/main.887c6921.css.map",
-    "main.335d1fd7.js.map": "/static/js/main.335d1fd7.js.map"
+    "main.css": "/pepegenerator/static/css/main.ce3ead2b.css",
+    "main.js": "/pepegenerator/static/js/main.757a729f.js",
+    "static/media/transparent.jpg": "/pepegenerator/static/media/transparent.52304df8226cf050a2b6.jpg",
+    "static/media/bg-black.jpg": "/pepegenerator/static/media/bg-black.95ef36986f96d5618c61.jpg",
+    "static/media/generator.png": "/pepegenerator/static/media/generator.d740d047b1b3ab175098.png",
+    "index.html": "/pepegenerator/index.html",
+    "main.ce3ead2b.css.map": "/pepegenerator/static/css/main.ce3ead2b.css.map",
+    "main.757a729f.js.map": "/pepegenerator/static/js/main.757a729f.js.map"
   },
   "entrypoints": [
-    "static/css/main.887c6921.css",
-    "static/js/main.335d1fd7.js"
+    "static/css/main.ce3ead2b.css",
+    "static/js/main.757a729f.js"
   ]
 }
