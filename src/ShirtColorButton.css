@@ -1,0 +1,79 @@
+.shirt-color-wrapper {
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 192px;
+    transition: transform 0.2s ease, filter 0.4s ease;
+  }
+  
+  .shirt-color-link {
+    position: relative;
+  }
+  
+  .shirt-color-link-text {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0.015em;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    user-select: none;
+  }
+  
+  .shirt-color-link-text-button {
+    z-index: 2;
+    position: absolute;
+    left: 30px;
+    top: 140px;
+    }
+  
+  .shirt-color-link-img {
+    position: absolute;
+    left: 10px;
+    top: 100px;
+  }
+  
+  .shirt-color-wrapper:hover img,
+  .shirt-color-wrapper:active {
+    filter: brightness(90%);
+    -webkit-filter: brightness(90%);
+  }
+  
+  .shirt-color-wrapper:active {
+    transform: translateY(7px);
+  }
+  
+  .handler-button-prev-shirt-color {
+    position: absolute;   
+    width: 115px;
+    top: 104px;
+    left: 22px;
+    z-index: 4;
+    cursor: pointer;
+  }
+  
+  .handler-button-link-prev-shirt-color {
+    display: block;
+    margin-left: auto;
+  }
+  
+  .handler-button-prev-shirt-color:hover svg,
+  .handler-button-next-shirt-color:hover svg {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .handler-button-next-shirt-color {
+    left: 22px;
+    position: absolute;   
+    width: 115px;
+    top: 183px;
+    z-index: 4;
+    cursor: pointer;
+  }
+  
+  .handler-button-link-next-shirt-color {
+    margin-left: 0px;
+    width: 100%;
+    display: block;
+  }

@@ -1,0 +1,83 @@
+ .background-wrapper {
+    margin-left: 40px;
+    margin-top: 5px;
+    width: 233px;
+    transition: transform 0.2s ease, filter 0.4s ease;
+  }
+  
+  .background-link {
+    position: relative;
+  }
+  
+  .background-link-text {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0.015em;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    user-select: none;
+  }
+  
+  .background-link-text-button {
+    z-index: 2;
+    position: absolute;
+    left: 40px;
+    top: -5px;
+    cursor: pointer;
+    }
+  
+  .background-link-img {
+    position: absolute;
+    left: 1px;
+    top: -10px;
+  }
+  
+  .background-wrapper:hover img {
+    filter: brightness(90%);
+    -webkit-filter: brightness(90%);
+  }
+  
+  .background-wrapper:active {
+    transform: translateY(7px);
+    filter: brightness(90%);
+    -webkit-filter: brightness(90%);
+  }
+
+  .handler-button-prev-background {
+    position: absolute;   
+    width: 115px;
+    top: -3px;
+    z-index: 4;
+    cursor: pointer;
+  }
+  
+  .handler-button-link-prev-background {
+    padding-right:65px;
+    display: block;
+    margin-left: auto;
+  }
+  
+  .handler-button-prev-background:hover svg,
+  .handler-button-next-background:hover svg {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .handler-button-next-background {
+    left: 110px;
+    position: absolute;   
+    width: 60px;
+    top: -3px;
+    z-index: 4;
+    cursor: pointer;
+  }
+  
+  .handler-button-link-next-background {
+    padding-left: 68px;
+    width: 100%;
+    display: block;
+  }
+  
+  

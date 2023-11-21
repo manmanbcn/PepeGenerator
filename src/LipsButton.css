@@ -1,0 +1,73 @@
+.lips-wrapper {
+    margin-top: 5px;
+    width: 222px;
+    transition: transform 0.2s ease, filter 0.4s ease;
+  }
+  
+  .lips-link-text {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0.015em;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    user-select: none;
+  }
+  
+  .lips-link-text-button {
+    z-index: 2;
+    position: absolute;
+    left: 85px;
+    top: -5px;
+    }
+  
+  .lips-link-img {
+    position: absolute;
+    left: 1px;
+    top: -10px;
+  }
+  
+  .lips-wrapper:hover img,
+  .lips-wrapper:active {
+    filter: brightness(90%);
+    -webkit-filter: brightness(90%);
+  }
+  
+  .lips-wrapper:active {
+    transform: translateY(7px);
+  }
+  
+  .handler-button-prev-lips {
+    position: absolute;   
+    width: 115px;
+    top: -3px;
+    z-index: 4;
+  }
+  
+  .handler-button-link-prev-lips {
+    padding-right:30px;
+    display: block;
+    margin-left: auto;
+    cursor: pointer;
+  }
+  
+  .handler-button-prev-lips:hover svg,
+  .handler-button-next-lips:hover svg {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .handler-button-next-lips {
+    left: 127px;
+    position: absolute;   
+    width: 115px;
+    top: -3px;
+    z-index: 4;
+    cursor: pointer;
+  }
+  
+  .handlerbutton-link-next-lips {
+    display: block;
+  }
+  

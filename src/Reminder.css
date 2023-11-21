@@ -1,0 +1,27 @@
+.reminder {
+  margin-top: 120px;
+}
+
+.reminder-wrapper {
+  margin: 0;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.reminder-text {
+  color: #5BA946;
+  margin: 0;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: Comfortaa;
+  line-height: 47px;
+  letter-spacing:3px;
+}
+
+.reminder-arrrow {
+  margin-top: 20px;
+}

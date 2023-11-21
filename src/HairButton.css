@@ -1,0 +1,71 @@
+ .hair-wrapper {
+    margin-left: 30px;
+    margin-top: 5px;
+    width: 233px;
+    transition: transform 0.2s ease, filter 0.4s ease;
+  }
+
+  .hair-link-text {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0.015em;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    user-select: none;
+  }
+  
+  .hair-link-text-button {
+    z-index: 2;
+    position: absolute;
+    left: 100px;
+    top: -5px;
+    }
+  
+  .hair-link-img {
+    position: absolute;
+    left: 10px;
+    top: -10px;
+  }
+  
+  .hair-wrapper:focus img,
+  .hair-wrapper:hover img {
+    filter: brightness(90%);
+    -webkit-filter: brightness(90%);
+  }
+  
+  .hair-wrapper:active {
+    transform: translateY(7px);
+  }
+
+  .handler-button-prev-hair,
+  .handler-button-next-hair {
+    position: absolute;   
+    width: 115px;
+    top: -3px;
+    z-index: 4;
+    cursor: pointer;
+  }
+  
+  .handler-button-link-prev-hair {
+    display: block;
+    margin-left: auto;
+  }
+  
+  .handler-button-prev-hair:hover svg,
+  .handler-button-next-hair:hover svg {
+    fill: rgb(255, 255, 255);
+  }
+
+  .handler-button-next-hair {
+    left: 115px;
+  }
+  
+  .handler-button-link-next-hair {
+    margin-left: 20px;
+    width: 100%;
+    display: block;
+  }
+  

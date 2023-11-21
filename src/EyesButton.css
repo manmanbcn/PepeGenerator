@@ -1,0 +1,77 @@
+.eyes-wrapper {
+    margin-left: 50px;
+    margin-top: 60px;
+    width: 192px;
+    transition: transform 0.2s ease, filter 0.4s ease;
+  }
+  
+  .eyes-link-text {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0.015em;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    user-select: none;
+  }
+  
+  .eyes-link-text-button {
+    z-index: 2;
+    position: absolute;
+    left: 80px;
+    top: 60px;
+    }
+  
+  .eyes-link-img {
+    position: absolute;
+    left: 10px;
+    top: -10px;
+  }
+  
+  .eyes-wrapper:focus img,
+  .eyes-wrapper:hover img,
+  .eyes-wrapper:active {
+    filter: brightness(90%);
+    -webkit-filter: brightness(90%);
+  }
+  
+  .eyes-wrapper:active {
+    transform: translateY(7px);
+  }
+  
+  .handler-button-prev-eyes {
+    position: absolute;   
+    width: 115px;
+    top: 63px;
+    z-index: 4;
+  }
+  
+  .handler-button-link-prev-eyes {
+    padding-right:30px;
+    display: block;
+    margin-left: auto;
+    cursor: pointer;
+  }
+  
+  .handler-button-prev-eyes:hover svg,
+  .handler-button-next-eyes:hover svg {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .handler-button-next-eyes {
+    left: 120px;
+    position: absolute;   
+    width: 100px;
+    top: 63px;
+    z-index: 4;
+    cursor: pointer;
+  }
+  
+  .handler-button-link-next-eyes {
+    margin-left: 0px;
+    width: 100%;
+    display: block;
+  }
+  

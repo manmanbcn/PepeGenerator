@@ -1,0 +1,177 @@
+
+.person {
+  width: 494px;
+  height: 541px;
+  background-color: rgba(200, 200, 200, 0.515);
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.profileWrapper {
+  position: relative;
+  height: 541px;
+}
+
+.headWrapper {
+  position: relative;
+  top: -1152px;
+  left: 45px;
+  width: 318px;
+  z-index: 1;
+}
+
+.eyesWrapper {
+  position: relative;
+  top: 84px;
+  left: 68px;
+  width: 330px;
+  height: 171px;
+  z-index: 3;
+}
+
+.lipsWrapper {
+  position: relative;
+  top: 13px;
+  left: 39px;
+  width: 363px;
+  height: 223px;
+  z-index: 2;
+}
+
+.bodyWrapper {
+  position: relative;
+  top: -59px;
+  left: 30px;
+  width: 293px;
+  z-index: 1;
+}
+
+.handsWrapper {
+  position: relative;
+  top: -212px;
+  left: 43px;
+  width: 423.5px;
+  z-index: 5;
+}
+
+.decalWrapper {
+  position: relative;
+  top: 4px;
+  left: 146px;
+  width: 116px;
+  height: 123px;
+  z-index: 1;
+}
+
+.hairWrapper {
+  position: relative;
+  top: -514px;
+  left: -1px;
+  width: 349px;
+  height: 474px;
+  z-index: 6;
+}
+
+.backpackWrapper {
+  position: relative;
+  top: -1319px;
+  left: -65.5px;
+  width: 326px;
+  height: 247px;
+  z-index: 1;
+}
+
+.head {
+  position: absolute;
+  width: 318px;
+}
+
+.backpacks {
+  width: 326px;
+  height: 247px;
+  position: absolute;
+}
+
+.hairs {
+  width: 399px;
+  position: absolute;
+}
+
+.decal {
+  width: 140px;
+  position: absolute;
+}
+
+.hands {
+  width: 423.5px;
+  position: absolute;
+}
+
+.shirt {
+  width: 293px;
+  position: absolute;
+}
+
+.eyes {
+  position: absolute;
+  width: 334.5px;
+}
+
+.lips {
+  position: absolute;
+  width: 379.5px;
+}
+
+.FFFFFF {
+  background-color: #FFFFFF;
+}
+
+.FF8080 {
+  background-color: #FF8080;
+}
+
+.FFCF96 {
+  background-color: #FFCF96;
+}
+.F6FDC3 {
+  background-color: #F6FDC3;
+}
+.CDFAD5 {
+  background-color: #CDFAD5;
+}
+.AAE3E2 {
+  background-color: #AAE3E2;
+}
+.D9ACF5 {
+  background-color: #D9ACF5;
+}
+.FFCEFE {
+  background-color: #FFCEFE;
+}
+.FFE5B9 {
+  background-color: #FFE5B9;
+}
+.EFF8FF {
+  background-color: #EFF8FF;
+}
+.C9CBFF {
+  background-color: #C9CBFF;
+}
+.A6A9B6 {
+  background-color: #A6A9B6;
+}
+.FFD5E5 {
+  background-color: #FFD5E5;
+}
+.FFFFDD {
+  background-color: #FFFFDD;
+}
+
+.A0FFE6 {
+  background-color: #A0FFE6;
+}
+
+.transparent {
+  background-image: url(../public/src/assets/transparent.jpg);
+}

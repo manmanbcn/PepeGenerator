@@ -1,0 +1,75 @@
+.hands-wrapper {
+    margin-top: 5px;
+    width: 222px;
+    transition: transform 0.2s ease, filter 0.4s ease;
+  }
+  
+  .hands-link-text {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0.015em;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    user-select: none;
+  }
+  
+  .hands-link-text-button {
+    z-index: 2;
+    position: absolute;
+    left: 75px;
+    top: -5px;
+    }
+  
+  .hands-link-img {
+    position: absolute;
+    left: 1px;
+    top: -10px;
+  }
+  
+  .hands-wrapper:hover img,
+  .hands-wrapper:active  {
+    filter: brightness(90%);
+    -webkit-filter: brightness(90%);
+  }
+  
+  .hands-wrapper:active {
+    transform: translateY(7px);
+  }
+  
+  .handler-button-prev-hands {
+    position: absolute;   
+    width: 115px;
+    top: -3px;
+    z-index: 4;
+  }
+  
+  .handler-button-link-prev-hands {
+    padding-right:30px;
+    display: block;
+    margin-left: auto;
+    cursor: pointer;
+  }
+  
+  .handler-button-prev-hands:hover svg,
+  .handler-button-next-hands:hover svg {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .handler-button-next-hands {
+    left: 125px;
+    position: absolute;   
+    width: 90px;
+    top: -3px;
+    z-index: 4;
+    cursor: pointer;
+  }
+  
+  .handlerbutton-link-next-hands {
+    padding-left: 15px;
+    width: 100%;
+    display: block;
+  }
+  

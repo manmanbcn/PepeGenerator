@@ -1,0 +1,46 @@
+
+.save-wrapper {
+  margin-left: auto;
+  width: 172px;
+  transition: transform 0.2s ease, filter 0.4s ease;
+}
+
+.save-link-text {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 40px;
+  letter-spacing: 0.015em;
+  text-align: center;
+  color: #1e1e1e;
+  position: relative;
+  user-select: none;
+}
+
+.save-link-text-button,
+.save-link-img {
+  position: absolute;
+  cursor: pointer;
+}
+
+.save-link-text-button {
+  z-index: 2;
+  left: 65px;
+  top: -5px;
+  }
+
+.save-link-img {
+  left: 10px;
+  top: -10px;
+}
+
+.save-wrapper:hover img {
+  filter: brightness(90%);
+  -webkit-filter: brightness(90%);
+}
+
+.save-wrapper:active {
+  transform: translateY(7px);
+  filter: brightness(90%);
+  -webkit-filter: brightness(90%);
+}

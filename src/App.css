@@ -1,0 +1,24 @@
+.main-wrapper {
+  margin: 0 auto;
+  width: 1420px;
+  background-image: url(../public/src/assets/bg-black.jpg);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.character-wrapper {
+  margin-top: auto;;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-selector-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+}

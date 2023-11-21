@@ -1,0 +1,45 @@
+.random-wrapper {
+    margin-left: auto;
+    width: 174px;
+    position: relative;
+    left: -100px;
+    transition: transform 0.2s ease, filter 0.4s ease;
+    cursor: pointer;
+  }
+
+  .random-link-text {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0.015em;
+    text-align: center;
+    color: #1e1e1e;
+    position: relative;
+    user-select: none;
+  }
+  
+  .random-link-text-button {
+    z-index: 2;
+    position: absolute;
+    left: 65px;
+    top: -5px;
+    width: 190px;
+    }
+  
+  .random-link-img {
+    position: absolute;
+    left: 10px;
+    top: -10px;
+  }
+  
+  .random-wrapper:hover img {
+    filter: brightness(90%);
+    -webkit-filter: brightness(90%);
+  }
+  
+  .random-wrapper:active {
+    transform: translateY(7px);
+    filter: brightness(90%);
+    -webkit-filter: brightness(90%);
+  }
